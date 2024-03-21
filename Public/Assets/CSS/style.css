@@ -1,0 +1,416 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    /* background-color: tomato; */
+}
+
+.Nav_Element{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: darkcyan; */
+}
+
+.Nav_Element p{
+    font-family: "Archivo";
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+
+.icons{
+    width: 150px;
+}
+
+.Links ul{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+nav img{
+    max-width: 2vh;
+    height: 2vh;
+}
+
+
+
+main{
+    font-family: "Poppins";
+    font-weight: 400;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hero{
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: violet; */
+}
+
+.Hero_Img{
+    min-width: 100%;
+    height: 500px;
+    border-radius: 40px;
+    background-image: url(/Assets/Img/a-grey-green-taellasen-upholstered-bed-frame-with-privacy-sc-88f435346a1c1f0df3b1a984a24d2334.png);
+    background-size: cover;
+    background-position: center;
+    /* background-color: coral; */
+}
+
+
+
+.Hero_Bot{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.Hero_Bot_{
+    width: 49%;
+    /* background-color: blue; */
+    gap: 10px   ;
+}
+
+
+.Hero_Bot button{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 43%;
+    height: 4vh;
+    border-radius: 20px;
+    /* background-color: black; */
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+}
+
+
+.bloc-logo {
+    position: relative;
+    float: left;
+    
+}
+
+.bloc-logo canvas,
+.bloc-logo .logo-mask {
+    /* display: block; */
+    width: 43%;
+    height: 4vh;
+    border-radius: 20px;
+}
+
+.bloc-logo .logo-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.Hero_Bot h1{
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 8rem;
+}
+
+
+.Hero_Img_Bot{
+    width: 20vh;
+    height: 20vh;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+
+.Hero_Img_Bot1{
+    background-image: url(/Assets/Img/Screenshot\ 2024-03-20\ 155108.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Hero_Img_Bot2{
+    background-image: url(/Assets/Img/PH195098.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Hero_Bot_Left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Hero_Bot_Right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.PStyle{
+    flex: 1 0 1;
+    /* background-color: rebeccapurple; */
+}
+
+.Hero_Bot_Right p{
+    width: 80%;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+.glide{
+    max-width: 90vw;
+    margin-bottom: 50px;
+}
+
+
+
+.Glide_Img{
+    border-radius: 10px;
+    min-width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.glide__slides h1{
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.glide__slides h3{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.deals{
+    min-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    /* background-color: pink; */
+}
+
+.deals p{
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.deals h3{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Inspiration{
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Inspi_top{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.Inspi_text{
+    max-width: 60%;
+}
+
+
+.Inspi_text h1{
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.Inspi_text P{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: InspiImg1 InspiImg1 rgb(80, 80, 80);
+    margin-bottom: 20px;
+}
+
+.Inspi_Button{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 2px black solid;
+    background-color: #ffff;
+    width: 15vw;
+    height: 5vh;
+}
+
+
+
+
+
+.InspiGrid{
+    display: grid;
+    grid-template-columns: 0.6fr 0.2fr 0.2fr;
+    grid-template-areas: 
+    "InspiImg1 InspiImg2 InspiImg3"
+    "InspiImg1 InspiImg5 InspiImg3"
+    "InspiImg1 InspiImg5 InspiImg4";
+    gap: 20px;
+    /* background-color: yellowgreen; */
+}
+
+
+.InspiImg1{
+    grid-area: InspiImg1;
+}
+.InspiImg2{
+    grid-area: InspiImg2;
+}
+.InspiImg3{
+    grid-area: InspiImg3;
+}
+.InspiImg4{
+    grid-area: InspiImg4;
+}
+.InspiImg5{
+    grid-area: InspiImg5;
+}
+
+
+
+
+footer{
+    
+    margin: 50px 0px;
+    height: auto;
+    /* background-color: #203631; */
+}
+
+.hnf-accordion{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.hnf-accordion__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+
+.hnf-accordion__content-item{
+    margin: 10px 0px;
+}
+
+
+
+.hnf-link{
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.hnf-accordion__heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
